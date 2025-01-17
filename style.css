@@ -1,0 +1,135 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 1 0 100%;
+
+}
+
+.cal_container {
+  flex: 1 1 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content:center;
+  gap: 10px;
+  max-width: 100%;
+  padding: 10%;
+
+}
+
+.screens {
+  flex: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  width: 50%;
+}
+
+#screen_1_container, #screen_2_container {
+  outline: 1px black solid;
+  flex: 1 1 50%;
+  min-height: 50px;
+}
+
+.keypad {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5%;
+  flex: 1 0 0;
+  
+  
+}
+
+#keypad_left, #keypad_right {
+  height: 70%;
+}
+
+#keypad_left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2px;
+}
+
+#keypad_left > div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+  flex: 1;
+}
+
+#keypad_left > div > button {
+  flex: 1 1 100%;
+}
+
+#keypad_right > button {
+  max-width: 100%;
+  flex: 1;
+}
+
+
+#keypad_right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2px;
+}
+
+#screen_1_container, #screen_2_container {
+  display:flex;
+}
+
+#screen_2, #screen_1 {
+  display: flex;
+  flex: 1;
+}
+
+#screen_1 {
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#number_input {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+}
+
+#resultscreen {
+  align-self: center;
+  margin-right: 5px;
+}
+
+#inputscreens {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-self: center;
+}
+
+.main_container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:medium;
+}
+
+#number_input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+ }
+

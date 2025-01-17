@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Calculator</title>
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="main_container">
+    <div class="header"></div>
+    <div class="cal_container">
+      <div class="screens" id="screens">
+        <div id="screen_1_container">
+          <div id="screen_1">
+            <div id ="inputscreens">
+              <div id="operand1screen"></div>
+              <div id="operatorscreen"></div>
+              <div id="operand2screen"></div>
+            </div>
+            
+            <div id="resultscreen"></div>
+          </div>
+        </div>
+        <div id="screen_2_container">
+          <div id="screen_2">
+            <input type="text" name="number_input" id="number_input">
+          </div>
+        </div>
+      </div>
+      <div class="keypad" id="keypad">
+        <div id="keypad_left">
+          <div id="keypad_left_6">
+            <button id="clear">Clear</button>
+          </div>
+          <div id="keypad_left_5">
+            <button class="numbers" id="one">1</button>
+            <button class="numbers" id="two">2</button>
+            <button class="numbers" id="three">3</button>
+          </div>
+          <div id="keypad_left_4">
+            <button class="numbers" id="four">4</button>
+            <button class="numbers" id="five">5</button>
+            <button class="numbers" id="six">6</button>
+          </div>
+          <div id="keypad_left_3">
+            <button class="numbers" id="seven">7</button>
+            <button class="numbers" id="eight">8</button>
+            <button class="numbers" id="nine">9</button>
+          </div>
+          <div id="keypad_left_2">
+            <button class="numbers" id="zero">0</button>
+            <button class="numbers" id="period">.</button>
+          </div>
+          
+        </div>
+        <div id="keypad_right">
+          <button id="backspace">⌫</button>
+          <button class="operator" id="divide">/</button>
+          <button class="operator" id="multiply">x</button>
+          <button class="operator" id="add">+</button>
+          <button class="operator" id="subtract">-</button>
+          <button class="operation" id="equal">=</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </div>
+  
+</body>
+</html>
